@@ -9,31 +9,31 @@ interface Skill {
 
 const skills: Skill[] = [
   // Frontend
-  { name: 'HTML5', level: 95, icon: '🌐', category: 'Frontend' },
-  { name: 'CSS3', level: 90, icon: '🎨', category: 'Frontend' },
-  { name: 'JavaScript', level: 85, icon: '⚡', category: 'Frontend' },
-  { name: 'React', level: 80, icon: '⚛️', category: 'Frontend' },
+  { name: 'HTML5', level: 90, icon: '🌐', category: 'Frontend' },
+  { name: 'CSS3', level: 85, icon: '🎨', category: 'Frontend' },
+  { name: 'JavaScript', level: 80, icon: '⚡', category: 'Frontend' },
+  { name: 'React', level: 75, icon: '⚛️', category: 'Frontend' },
   
   // Backend
-  { name: 'Node.js', level: 75, icon: '🟢', category: 'Backend' },
+  { name: 'Node.js', level: 70, icon: '🟢', category: 'Backend' },
   { name: 'Express', level: 70, icon: '🚀', category: 'Backend' },
+  { name: 'MongoDB', level: 75, icon: '🍃', category: 'Backend' },
   
   // Programming Languages
-  { name: 'Python', level: 85, icon: '🐍', category: 'Languages' },
-  { name: 'Java', level: 80, icon: '☕', category: 'Languages' },
+  { name: 'Python', level: 90, icon: '🐍', category: 'Languages' },
+  { name: 'SQL', level: 80, icon: '🗄️', category: 'Languages' },
   
   // Tools & Technologies
-  { name: 'Git/GitHub', level: 90, icon: '🔧', category: 'Tools' },
   { name: 'VS Code', level: 95, icon: '💻', category: 'Tools' },
-  { name: 'Figma', level: 75, icon: '🎯', category: 'Tools' },
-  { name: 'Postman', level: 80, icon: '📮', category: 'Tools' },
+  { name: 'R Studio', level: 70, icon: '📊', category: 'Tools' },
+  { name: 'Git/GitHub', level: 85, icon: '🔧', category: 'Tools' },
 ];
 
 const softSkills = [
   { name: 'Teamwork', description: 'Collaborative problem-solving and effective communication' },
-  { name: 'Adaptability', description: 'Quick learning and adaptation to new technologies' },
+  { name: 'Project Ownership', description: 'Taking full responsibility and driving projects to completion' },
   { name: 'Communication', description: 'Clear technical communication and documentation' },
-  { name: 'Problem Solving', description: 'Analytical thinking and creative solution development' },
+  { name: 'Problem Solving', description: 'Academic research combined with practical implementation' },
 ];
 
 const SkillsSection = () => {
@@ -150,7 +150,7 @@ const SkillsSection = () => {
                 I'm constantly expanding my skillset and staying updated with the latest technologies
               </p>
               <div className="flex flex-wrap justify-center gap-3">
-                {['TypeScript', 'Next.js', 'GraphQL', 'Docker', 'AWS', 'Machine Learning'].map((tech) => (
+                {['Deep Learning', 'NLP', 'Flask', 'TypeScript', 'Next.js', 'AWS'].map((tech) => (
                   <span 
                     key={tech}
                     className="px-4 py-2 bg-surface rounded-full text-sm font-medium border border-border hover:border-accent/50 transition-smooth"

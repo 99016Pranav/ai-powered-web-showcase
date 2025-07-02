@@ -76,7 +76,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Email</h4>
-                      <p className="text-muted-foreground">alex.johnson.dev@email.com</p>
+                      <p className="text-muted-foreground">pm3073900@gmail.com</p>
                     </div>
                   </div>
                   
@@ -95,8 +95,8 @@ const ContactSection = () => {
                       🌍
                     </div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Location</h4>
-                      <p className="text-muted-foreground">Available for remote work</p>
+                      <h4 className="font-semibold text-foreground">Phone</h4>
+                      <p className="text-muted-foreground">+91 9591812943</p>
                     </div>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ const ContactSection = () => {
                     </div>
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/pranav-magadum" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-4 bg-surface hover:bg-surface-hover rounded-lg border border-border hover:border-accent/50 transition-smooth flex-1"

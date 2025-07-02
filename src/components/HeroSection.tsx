@@ -31,13 +31,13 @@ const HeroSection = () => {
             <div className="mb-6">
               <p className="text-accent font-mono text-sm mb-2 animate-fadeInUp">Hi there, I'm</p>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 animate-fadeInUp animate-delay-200">
-                <span className="text-gradient-primary">Alex Johnson</span>
+                <span className="text-gradient-primary">Pranav R. Magadum</span>
               </h1>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-foreground-secondary mb-6 animate-fadeInUp animate-delay-400">
-                Front-End Developer | GenAI Enthusiast
+                Software Developer | GenAI & Full Stack Enthusiast
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl animate-fadeInUp animate-delay-600">
-                Crafting Modern Web Experiences with Code & Creativity
+                Turning code into impactful solutions
               </p>
             </div>
 
@@ -85,7 +85,7 @@ const HeroSection = () => {
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-border shadow-card hover:shadow-glow transition-smooth">
                 <img 
                   src={profileImage} 
-                  alt="Alex Johnson - Front-End Developer" 
+                  alt="Pranav R. Magadum - Software Developer"
                   className="w-full h-full object-cover hover:scale-105 transition-smooth"
                 />
               </div>

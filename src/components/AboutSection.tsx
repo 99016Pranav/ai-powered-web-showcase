@@ -38,13 +38,14 @@ const AboutSection = () => {
               <div className="glass-card p-8 rounded-2xl hover:shadow-card transition-smooth">
                 <h3 className="text-2xl font-semibold mb-4 text-gradient-primary">My Journey</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  I'm a passionate software developer with a background in M.Tech CSE, currently transitioning 
-                  into the exciting world of AI and modern web development. My journey combines technical 
-                  expertise with creative problem-solving.
+                  I'm currently pursuing my M.Tech in Computer Science at RV College of Engineering, Bangalore, 
+                  with a CGPA of 8.3. With a background in Computer Science (BE from MVJ College), I'm passionate 
+                  about building intelligent systems and full-stack web applications.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  What drives me is the intersection of technology and creativity—building solutions that 
-                  not only work beautifully but also create meaningful impact for users and businesses.
+                  Over the years, I've interned at companies like EISystems, Infotrixs, and Varcoons, gaining 
+                  hands-on experience in Python, Web Development, and software engineering. I enjoy blending 
+                  practical skills with academic knowledge to solve real-world problems.
                 </p>
               </div>
 
@@ -53,7 +54,7 @@ const AboutSection = () => {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-accent rounded-full"></div>
-                    <span className="text-muted-foreground">Full-stack development with modern frameworks</span>
+                    <span className="text-muted-foreground">Full-stack development with MERN Stack</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-accent rounded-full"></div>
@@ -61,11 +62,11 @@ const AboutSection = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-accent rounded-full"></div>
-                    <span className="text-muted-foreground">Building impactful tools that solve real problems</span>
+                    <span className="text-muted-foreground">Building intelligent systems and web applications</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-accent rounded-full"></div>
-                    <span className="text-muted-foreground">Continuous learning and staying updated with tech trends</span>
+                    <span className="text-muted-foreground">Academic research and practical problem-solving</span>
                   </div>
                 </div>
               </div>

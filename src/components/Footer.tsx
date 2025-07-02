@@ -13,9 +13,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Left - Brand */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold text-gradient-primary mb-2">Alex Johnson</h3>
+            <h3 className="text-xl font-bold text-gradient-primary mb-2">Pranav R. Magadum</h3>
             <p className="text-muted-foreground text-sm">
-              Front-End Developer | GenAI Enthusiast
+              Software Developer | GenAI & Full Stack Enthusiast
             </p>
           </div>
 
@@ -49,7 +49,7 @@ const Footer = () => {
               <Github className="w-5 h-5 text-muted-foreground hover:text-primary transition-smooth" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/pranav-magadum" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-surface hover:bg-surface-hover border border-border hover:border-accent/50 transition-smooth"
@@ -67,7 +67,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Alex Johnson. Built with React, TypeScript & Tailwind CSS.
+            © {currentYear} Pranav R. Magadum. Built with React, TypeScript & Tailwind CSS.
           </p>
           <p className="text-muted-foreground text-xs mt-1">
             Crafted with 💜 and lots of ☕
